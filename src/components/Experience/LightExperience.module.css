@@ -1,0 +1,51 @@
+.Container
+{
+    width: auto;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.Title
+{
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.Job
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.Job:nth-last-child(1)
+{
+    margin-bottom: 0;
+}
+
+.Job h3
+{
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.Details
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #6c6f70;
+}
+
+.Details h4
+{
+    font-weight: 600;
+}
+
+.Details h5
+{
+    font-weight: 500;
+}

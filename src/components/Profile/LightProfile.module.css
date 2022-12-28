@@ -1,0 +1,13 @@
+.Container
+{
+    width: auto;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.Title
+{
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    color: #000;
+}

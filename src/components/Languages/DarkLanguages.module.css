@@ -1,0 +1,28 @@
+.Container
+{
+    width: auto;
+    height: auto;
+    padding-top: 40px;
+}
+
+.Title
+{
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.Container li
+{
+    list-style: none;
+}
+
+.Language
+{
+    font-weight: 500;
+}
+
+.Level
+{
+    font-weight: 300;
+}

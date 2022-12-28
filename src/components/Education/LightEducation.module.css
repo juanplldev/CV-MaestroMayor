@@ -1,0 +1,43 @@
+.Container
+{
+    width: auto;
+    height: auto;
+    padding-top: 40px;
+}
+
+.Title
+{
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.Container li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.Container h4 > a
+{
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+    font-weight: 700;
+    transition: 0.15s;
+}
+
+.Container ul li > h4
+{
+    font-weight: 400;
+}
+
+.Container h5
+{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.Container ul li h4 a:hover
+{
+    color: #000;
+}

@@ -1,0 +1,35 @@
+.Container
+{
+    width: auto;
+    height: auto;
+}
+
+.Title
+{
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.Container ul
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Container li
+{
+    margin-bottom: 5px;
+    list-style: inside;
+}
+
+.QRContainer
+{
+    width: 100%;
+}
+
+.QRContainer img
+{
+    width: 200px;
+    height: 200px;
+}

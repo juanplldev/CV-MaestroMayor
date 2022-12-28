@@ -1,0 +1,91 @@
+.DownloadContainer
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: auto;
+    max-width: 1000px;
+    min-height: 1000px;
+    max-height: 1495px;
+    /* margin: 50px; */
+    box-shadow: 2px 0 10px rgba(255, 255, 255, 0.15);
+    transition: 0.5s;
+}
+
+.Container
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: auto;
+    max-width: 1000px;
+    min-height: 1000px;
+    /* margin: 50px; */
+    box-shadow: 2px 0 10px rgba(255, 255, 255, 0.15);
+    transition: 0.5s;
+}
+
+.LeftSide
+{
+    position: relative;
+    background: #181616;
+    padding: 40px;
+    box-shadow: 1px 0 2px rgba(15, 15, 15, 0.15);
+    z-index: 2;
+}
+
+.RightSide
+{
+    position: relative;
+    background: #212121;
+    padding: 40px;
+}
+
+.DownloadArrowButton
+{
+    display: none;
+}
+
+.ArrowButton
+{
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    bottom: 1rem;
+    right: 1rem;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    color: rgb(215, 215, 215);
+    background: #181616;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.ArrowButton svg
+{
+    width: 25px;
+    height: 25px;
+}
+
+.ArrowButton:hover
+{
+    background: rgb(100, 100, 100);
+    color: #fff;
+}
+
+@media (max-width: 1000px)
+{
+    .Container
+    {
+        margin: 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ArrowButton
+    {
+        display: flex;
+    }
+}

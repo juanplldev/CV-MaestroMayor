@@ -1,0 +1,67 @@
+.Container
+{
+    width: auto;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.Title
+{
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.Container li
+{
+    list-style: none;
+    width: fit-content;
+}
+
+.Link
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(210, 210, 210);
+}
+
+.Link > span
+{
+    font-weight: 500;
+    transition: 0.15s;
+}
+
+.Month
+{
+    font-weight: 400;
+}
+
+.Link svg
+{
+    width: 20px;
+    height: 20px;
+    transition: 0.15s;
+}
+
+.Container ul li:hover .Link span
+{
+    color: #fff;
+}
+
+.Container ul li:hover .Link svg
+{
+    transform: translateX(5px);
+}
+
+@media (max-width: 520px)
+{
+    .Link svg
+    {
+        display: none;
+    }
+}
